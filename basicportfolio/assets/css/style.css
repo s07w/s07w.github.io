@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+html {
+    height: 100%;
+}
+
 body {
     background-image: url("../images/bg.png");
     height: 100%;
@@ -116,12 +120,12 @@ li {
 }
 
 footer {
-        position: fixed;
-        left: 0;
+        position: relative;
         bottom: 0;
-        width: 100%;
+        width: 100vw;
         padding-top: 20px;
         padding-bottom: 10px;
+        margin-left: -8px;
         border-top: 5px #4aaaa5 solid;
         background-color:#666666;
         color: white;
